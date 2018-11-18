@@ -14,28 +14,41 @@ class MainVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+//        print(buttons)
         for button in buttons {
-            let tapGesture = UITapGestureRecognizer(target: self, action: "tapPress")  //Tap function will call when user tap on button
-            let longGesture = UILongPressGestureRecognizer(target: self, action: "longPress") //Long function will call when user long press on button.
-            tapGesture.numberOfTapsRequired = 1
-            button.addGestureRecognizer(tapGesture)
-            button.addGestureRecognizer(longGesture)
+            print(button.tag)
+//            let tapGesture = UITapGestureRecognizer(target: self, action: Selector(("tapPress:")))
+//            let longGesture = UILongPressGestureRecognizer(target: self, action: Selector(("longPress:")))
+//            tapGesture.numberOfTapsRequired = 1
+//            button.addGestureRecognizer(tapGesture)
+//            button.addGestureRecognizer(longGesture)
         }
     }
-
+    
+    @IBAction func clearAllPressed(_ sender: UIBarButtonItem) {
+        for button in buttons {
+            button.setImage(nil, for: .normal)
+        }
+    }
+    
     @IBAction func soundPressed(_ sender: UIButton) {
-        buttons[sender.tag - 1].backgroundColor = .black
+        buttons[sender.tag - 1].setImage(UIImage(named:"speaker_white"), for: .normal)
+        print("press")
     }
     
     func tapPress() {
-        
         print("play")
+        // play if possible
     }
     
-    func longPress() {
-        
+    func longPress(sender: UIGestureRecognizer) {
         print("Record")
+        if sender.state == .ended {
+            // stop recording
+        }
+        else if sender.state == .began {
+            // start recording
+        }
     }
     
 }

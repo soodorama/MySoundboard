@@ -27,22 +27,28 @@
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVa-Vh-X9u">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.5" height="141"/>
                                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0093617555427760735" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wyB-Io-l4t"/>
+                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yQd-l9-jBh"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNf-hz-EjO">
                                                 <rect key="frame" x="122.5" y="0.0" width="114" height="141"/>
                                                 <color key="backgroundColor" red="1" green="0.46350692406410565" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rQI-Ud-Um3"/>
+                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yAI-pK-k6R"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZaZ-hX-EYZ">
                                                 <rect key="frame" x="244.5" y="0.0" width="114.5" height="141"/>
                                                 <color key="backgroundColor" red="1" green="0.74341438262487525" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iwq-uy-Z1H"/>
+                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QWN-wq-or4"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -53,22 +59,28 @@
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fc3-16-wtS">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.5" height="140.5"/>
                                                 <color key="backgroundColor" red="0.83132024841626551" green="1" blue="0.0043944882078379432" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LyZ-4J-C3A"/>
+                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ydp-bN-0aY"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6B-tH-u0H">
                                                 <rect key="frame" x="122.5" y="0.0" width="114" height="140.5"/>
                                                 <color key="backgroundColor" red="0.36868411381854449" green="1" blue="0.00033646567800704741" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ref-dv-wrs"/>
+                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yQ1-6i-kv3"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ek-ct-MYE">
                                                 <rect key="frame" x="244.5" y="0.0" width="114.5" height="140.5"/>
                                                 <color key="backgroundColor" red="0.0" green="1" blue="0.6280093267837481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BKZ-KF-b3d"/>
+                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M9Z-vl-sgx"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -79,22 +91,28 @@
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLx-hc-fg5">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.5" height="141"/>
                                                 <color key="backgroundColor" red="0.0" green="0.92525656650758936" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kfy-o9-uk8"/>
+                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v81-2a-a5B"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PdX-OS-ALK">
                                                 <rect key="frame" x="122.5" y="0.0" width="114" height="141"/>
                                                 <color key="backgroundColor" red="0.0" green="0.55724914704869999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dlX-tI-jxf"/>
+                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zax-h2-TgS"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWj-2E-eSQ">
                                                 <rect key="frame" x="244.5" y="0.0" width="114.5" height="141"/>
                                                 <color key="backgroundColor" red="0.0" green="0.24341438262487536" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jgO-pc-OM1"/>
+                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JVx-OJ-aql"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -105,22 +123,28 @@
                                             <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTF-is-tAn">
                                                 <rect key="frame" x="0.0" y="0.0" width="114.5" height="140.5"/>
                                                 <color key="backgroundColor" red="0.38816938653738475" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kex-kR-bST"/>
+                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZkM-El-bkK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9X2-SX-zQo">
                                                 <rect key="frame" x="122.5" y="0.0" width="114" height="140.5"/>
                                                 <color key="backgroundColor" red="0.69766298534913318" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CyA-za-nb9"/>
+                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dyq-ZV-KTU"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6V-zM-h5c">
                                                 <rect key="frame" x="244.5" y="0.0" width="114.5" height="140.5"/>
                                                 <color key="backgroundColor" red="1" green="0.0" blue="0.41356994984225182" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Yb-pn-9Sl"/>
+                                                    <action selector="soundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rfN-5n-4fu"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -138,23 +162,26 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="SoundBoard" id="fea-CC-oDl">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="0CK-Aa-EGC"/>
+                        <barButtonItem key="leftBarButtonItem" title="Clear All" id="0CK-Aa-EGC">
+                            <connections>
+                                <action selector="clearAllPressed:" destination="BYZ-38-t0r" id="TuL-Lx-KTE"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Play All" id="8AR-E1-I1S"/>
                     </navigationItem>
                     <connections>
-                        <outletCollection property="buttons" destination="P6B-tH-u0H" collectionClass="NSMutableArray" id="bWE-n6-owV"/>
-                        <outletCollection property="buttons" destination="dVa-Vh-X9u" collectionClass="NSMutableArray" id="4fU-xX-Avg"/>
-                        <outletCollection property="buttons" destination="cNf-hz-EjO" collectionClass="NSMutableArray" id="rfK-Tf-dyT"/>
-                        <outletCollection property="buttons" destination="ZaZ-hX-EYZ" collectionClass="NSMutableArray" id="1EY-Hu-Msl"/>
-                        <outletCollection property="buttons" destination="Fc3-16-wtS" collectionClass="NSMutableArray" id="7ni-7r-Jwd"/>
-                        <outletCollection property="buttons" destination="P6B-tH-u0H" collectionClass="NSMutableArray" id="Dzx-Hj-sJZ"/>
-                        <outletCollection property="buttons" destination="0ek-ct-MYE" collectionClass="NSMutableArray" id="0zl-xU-F7T"/>
-                        <outletCollection property="buttons" destination="KLx-hc-fg5" collectionClass="NSMutableArray" id="79R-q7-96Z"/>
-                        <outletCollection property="buttons" destination="PdX-OS-ALK" collectionClass="NSMutableArray" id="nZ0-3f-S6b"/>
-                        <outletCollection property="buttons" destination="dWj-2E-eSQ" collectionClass="NSMutableArray" id="ihX-fx-Bzi"/>
-                        <outletCollection property="buttons" destination="UTF-is-tAn" collectionClass="NSMutableArray" id="SGM-o4-rWe"/>
-                        <outletCollection property="buttons" destination="9X2-SX-zQo" collectionClass="NSMutableArray" id="Yfb-6F-KCa"/>
-                        <outletCollection property="buttons" destination="N6V-zM-h5c" collectionClass="NSMutableArray" id="b6s-vZ-xcc"/>
+                        <outletCollection property="buttons" destination="dVa-Vh-X9u" collectionClass="NSMutableArray" id="gkZ-AX-ra6"/>
+                        <outletCollection property="buttons" destination="cNf-hz-EjO" collectionClass="NSMutableArray" id="ede-fh-Njh"/>
+                        <outletCollection property="buttons" destination="ZaZ-hX-EYZ" collectionClass="NSMutableArray" id="Bo8-M2-1Kt"/>
+                        <outletCollection property="buttons" destination="Fc3-16-wtS" collectionClass="NSMutableArray" id="vq8-Ny-6tU"/>
+                        <outletCollection property="buttons" destination="P6B-tH-u0H" collectionClass="NSMutableArray" id="1G9-hj-qLp"/>
+                        <outletCollection property="buttons" destination="0ek-ct-MYE" collectionClass="NSMutableArray" id="CW9-Hi-Phm"/>
+                        <outletCollection property="buttons" destination="KLx-hc-fg5" collectionClass="NSMutableArray" id="i2w-gE-Dh4"/>
+                        <outletCollection property="buttons" destination="PdX-OS-ALK" collectionClass="NSMutableArray" id="k7T-ni-EjI"/>
+                        <outletCollection property="buttons" destination="dWj-2E-eSQ" collectionClass="NSMutableArray" id="OEu-IE-NW9"/>
+                        <outletCollection property="buttons" destination="UTF-is-tAn" collectionClass="NSMutableArray" id="lsz-jz-tqd"/>
+                        <outletCollection property="buttons" destination="9X2-SX-zQo" collectionClass="NSMutableArray" id="2I6-N7-0FT"/>
+                        <outletCollection property="buttons" destination="N6V-zM-h5c" collectionClass="NSMutableArray" id="8Xx-jk-9rN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
